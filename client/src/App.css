@@ -1,0 +1,58 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  text-align: center;
+  background-color: aqua;
+}
+
+.cantainer{
+  min-height: 0%;
+  max-height: 100%;
+  /* border: solid black 1px; */
+
+}
+.menubar{
+  border: solid black 1px;
+  height: 1.5cm;
+  padding: 0.5cm;
+  font: outline;
+  font-weight: bold;
+}
+
+.menu{
+  padding: 3px 3px 3px 3px;
+  float: left;
+  margin-left: 0.5cm;
+  font-size: 10px;
+}
+
+.cantaint{
+  float: none;
+}
